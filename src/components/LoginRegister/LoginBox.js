@@ -55,8 +55,7 @@ const LoginBox = () => {
 
         // Alert success message
         window.alert("Đăng nhập thành công!");
-        // Force reloading the page to ensure all state is updated and cleared
-        window.location.reload();
+        
         // Fetch user information using the cookies
         const userInfoResponse = await axios.get(
           'https://projectky320240926105522.azurewebsites.net/api/User/profile',
@@ -70,6 +69,8 @@ const LoginBox = () => {
  
         // Optionally, navigate to the home page or dashboard
         navigate("/");
+        // Force reloading the page to ensure all state is updated and cleared
+        window.location.reload();
       } catch (error) {
         if (error.response) {
           // Check for specific error codes and display detailed messages

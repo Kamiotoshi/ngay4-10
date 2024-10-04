@@ -146,10 +146,10 @@ export default function Nav() {
                     <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
                     <ul className="dropdown-menu">
                       <li className="nav-item"><Link className="nav-link" to="/category">Shop Category</Link></li>
-                      <li className="nav-item"><Link className="nav-link" to="/product-detail">Product Details</Link></li>
+                      
                       <li className="nav-item"><Link className="nav-link" to="/checkout">Product Checkout</Link></li>
                       <li className="nav-item"><Link className="nav-link" to="/cart">Shopping Cart</Link></li>
-                      <li className="nav-item"><Link className="nav-link" to="/confirmation">Confirmation</Link></li>
+                     
                     </ul>
                   </li>
                   <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
